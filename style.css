@@ -1,0 +1,114 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.custom-navbar, footer {
+    background-color: #115740 !important; /* FEU Green */
+}
+
+.nav-link {
+    color: #FFCC00 !important;
+}
+
+.nav-link:hover {
+    color: #FFFFFF !important;
+}
+
+/* Home Section */
+#home {
+    position: relative;
+    padding: 50px 0;
+}
+
+#carouselExampleIndicators img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#home h1,
+#home p {
+    color: #115740;
+}
+
+/* Button Styling */
+.btn-warning {
+    background-color: #FFCC00;
+    color: #115740;
+    padding: 12px 24px;
+    border-radius: 5px;
+}
+
+.btn-warning:hover {
+    background-color: #115740;
+    color: #FFFFFF;
+}
+
+/* Sections */
+section {
+    padding: 50px 0;
+}
+
+/* Card Styling */
+.card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #115740;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .nav-link {
+        text-align: center;
+    }
+}
