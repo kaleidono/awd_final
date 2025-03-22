@@ -27,6 +27,11 @@ nav {
     color: #FFFFFF !important;
 }
 
+.navbar-brand {
+    font-family: 'Della Robbia Bold', Arial, sans-serif;
+	font-size: 30px;
+}
+
 /* Home Section */
 #home {
     position: relative;
@@ -106,9 +111,22 @@ footer {
     padding: 20px;
 }
 
+.footer-brand {
+    font-family: 'Della Robbia Bold', Arial, sans-serif;
+	font-size: 25px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
     .nav-link {
         text-align: center;
     }
+}
+
+/* Font */
+@font-face {
+      font-family: 'Della Robbia Bold';
+      src: url('font/DellaRobbiaBold.otf') format('opentype'),
 }
