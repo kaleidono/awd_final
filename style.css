@@ -130,3 +130,8 @@ footer {
       font-family: 'Della Robbia Bold';
       src: url('font/DellaRobbiaBold.otf') format('opentype'),
 }
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
